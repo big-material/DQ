@@ -1,7 +1,7 @@
 
 ## DQ
 
-The GUI for the application of DCC(Dataset Correlation Convergency) framwork for any datasets with one slected preditive target.
+The GUI for the application of DCC(Dataset Correlation Convergency) framework for any datasets with one selected preditive target.
 
 ### Main Features
 - Correlation matrix calculation (Pearson, Spearman, etc.)
