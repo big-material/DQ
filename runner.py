@@ -28,6 +28,13 @@ def feature_corr(df: pd.DataFrame, target: str, corr_func=pearson_matrix) -> pd.
     target_corr = corr_matrix[target].drop(target)  # Exclude self-correlation
     return target_corr
 
+def check_constant_columns(df: pd.DataFrame) -> list:
+    """
+    Check for constant columns in the dataframe
+    """
+    constant_cols = [col for col in df.columns if df[col].nunique() <= 1]
+    return constant_cols
+
 def run():
     st.set_page_config(layout="wide")
     st.title("🌟 Data Correlation Convergency")
@@ -56,6 +63,8 @@ def run():
             st.error("Please upload a CSV file to proceed.")
         elif target_column is None:
             st.error("Please select a target column to proceed.")
+        elif target_column not in df.columns:
+            st.error(f"The selected target column '{target_column}' is not in the dataframe.")
         else:
             if df.empty:
                 st.error("The uploaded CSV file is empty.")
@@ -73,6 +82,16 @@ def run():
                 #     )
                 # )
                 st.header("📝DCC Analysis Results")
+                constant_cols = check_constant_columns(df)
+                if constant_cols:
+                    st.warning(f"The following columns are constant and will be excluded from the analysis: {', '.join(constant_cols)}")
+                    df = df.drop(columns=constant_cols)
+                if df.shape[1] < 2:
+                    st.error("The dataframe must contain at least two non-constant numeric columns for DCC analysis.")
+                    return
+                if target_column in constant_cols:
+                    st.error("The target column cannot be a constant column.")
+                    return
                 st.badge("The default parameters for DCC: Perturbation ratio=0.05, ε=0.04, Pertubation type = Drop.")
                 with st.spinner("Calculating DCC...", show_time=True):
                     dcc_pearson = repeated_avg_dcc(data=df, ratio=0.05, eps=0.04, corr_func=pearson_matrix, repeats=5)
