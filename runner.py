@@ -189,3 +189,6 @@ def run():
                 # st.table(feature_importance)
                 # st.subheader(f"Correlation with target: {target_column}")
                 # st.table(feature_correlation)
+
+if __name__ == "__main__":
+    run()
