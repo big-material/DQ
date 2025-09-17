@@ -45,5 +45,5 @@ For more usage, please refer to the source code and comments.
 
 # Reference
 
-Evaluate dataset quality using correlation convergency inspired from perturbation theory. submit.
+Evaluate dataset quality using correlation convergency inspired from perturbation theory. submitted.
 
