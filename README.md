@@ -38,6 +38,10 @@ result = dcc(df, ratio=0.1)
 streamlit run runner.py
 ```
 
+The models can be download from the [release](https://github.com/big-material/DQ/releases/tag/v1.0) .
+1. The model for predicting the performance: [rf_model_scores.pkl](https://github.com/big-material/DQ/releases/download/v1.0/rf_model_scores.pkl).
+2. The model for predicting the feature importance: [rf_model_shap.pkl](https://github.com/big-material/DQ/releases/download/v1.0/rf_model_shap.pkl).
+
 ### 3. Main APIs
 - `dcc(data, ratio, eps, corr_func)`: Analyze the impact of missing data ratio on correlation coefficients
 
