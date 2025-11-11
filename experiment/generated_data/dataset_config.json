@@ -1,0 +1,402 @@
+{
+    "df_reg_0.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_1.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_2.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_3.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_4.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_5.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_6.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_7.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_8.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_9.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_10.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_11.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_12.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_13.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_14.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_15.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_16.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_17.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_18.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_19.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_20.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_21.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_22.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_23.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_24.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_25.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_26.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_27.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_28.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_29.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_30.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_31.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_32.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_33.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_34.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_35.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_36.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_37.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_38.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_39.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_40.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_41.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_42.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_43.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_44.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_45.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_46.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_47.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_48.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_reg_49.csv": {
+        "target_col": "target",
+        "type": "regression"
+    },
+    "df_class_0.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_1.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_2.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_3.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_4.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_5.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_6.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_7.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_8.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_9.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_10.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_11.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_12.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_13.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_14.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_15.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_16.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_17.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_18.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_19.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_20.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_21.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_22.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_23.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_24.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_25.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_26.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_27.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_28.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_29.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_30.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_31.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_32.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_33.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_34.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_35.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_36.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_37.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_38.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_39.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_40.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_41.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_42.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_43.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_44.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_45.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_46.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_47.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_48.csv": {
+        "target_col": "target",
+        "type": "classification"
+    },
+    "df_class_49.csv": {
+        "target_col": "target",
+        "type": "classification"
+    }
+}
